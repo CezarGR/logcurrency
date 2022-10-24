@@ -2,15 +2,18 @@
   <div class="not-found">
     <h1>ESSA PÁGINA NÃO EXISTE.</h1>
     <h4>logcurrency</h4>
-    <div class="container-link">
-      <router-link to="/">click aqui para ir a  página inicial</router-link>
-    </div>
+    <LinkArrowComponent message="click aqui para ir a  página inicia" redirect-to="/"/>
   </div>
 </template>
 
 <script>
+import LinkArrowComponent from '@/components/LinkArrowComponent.vue';
+
 export default {
-  name: 'NotFoundView'
+  name: 'NotFoundView',
+  components: {
+    LinkArrowComponent
+  }
 }
 </script>
 
