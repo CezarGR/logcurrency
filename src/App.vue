@@ -6,8 +6,9 @@
 
 <style lang="scss">
 body {
+    overflow-x: hidden;
     margin: 0px;
-    background-image: url('./assets/background.svg');
+    background-image: url('./assets/background5.svg');
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
